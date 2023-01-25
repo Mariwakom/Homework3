@@ -1,6 +1,6 @@
 //задание 1
 let password = 'пароль';
-let a = (prompt("Введите пароль"));
+let a = prompt("Введите пароль");
 if (password === a) {
   console.log('Пароль введен верно');
 } else {
@@ -22,8 +22,8 @@ if (d > 100 || e > 100) {
   console.log('Неверно');
 }
 //задание 4
-let n = (Number('2'));
-let h = (Number('3'));
+let n = Number('2');
+let h = Number('3');
 alert(n + h);
 //задание5
 let monthNumber = Number(prompt('Введите номер месяца'))
@@ -50,7 +50,7 @@ switch (monthNumber) {
     console.log('Осень');
     break;
   default:
-    if (monthNumber >= 13) {
+     (monthNumber >= 13) {
       console.log('такого месяца нет');
     }
     break;
